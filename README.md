@@ -1,18 +1,3 @@
-
-# Gatsby theme evelyn
-
-A gatsby theme landing page template.
-
-## Getting started
-For an introduction to gatsby themes watch this official gatsby [video](https://www.youtube.com/watch?v=PS2784YfPpw).
-
-Your theme will be found at `src/components`.
-
-## Getting support
-You can reach me [@stevennatera](https://twitter.com/@stevennatera) for all question, comments, or concerns.
-
-Thank you!
-
 <h1 align="center">
   Website development files 🏗️🚀🌐
 </h1>
@@ -22,7 +7,7 @@ the website https://allaroundconcreting.com/ hosted at https://allaroundconcreti
 You can begin improving the website in 5 minutes with these steps:
 
 
-#Setup Locally
+# Setup Locally
 Follow these points to do a one time setup of the project in your local dev environment:
 
 - **Install the Gatsby CLI**
@@ -52,7 +37,7 @@ Follow these points to do a one time setup of the project in your local dev envi
 
 At this point you have the project setup locally on your machine. You should not need to clone the repo again, we have a git workflow to keep everything in order.
 
-#Development workflow
+# Development workflow
 
 1. **Open the project**
    
@@ -103,7 +88,7 @@ Now you can see changes live as you develop. Edit some files, and save changes t
    ```
 
 
-#Deploy workflow
+# Deploy workflow
 Our deployment workflow is disappointingly not automated by running a single command because gh-pages just won't work on MN's laptop :[ 
 
 **Build to "public" folder **
