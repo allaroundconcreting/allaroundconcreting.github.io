@@ -118,15 +118,18 @@ from path ~/allaroundconcreting.github.io ~$
 
 from path ~/allaroundconcreting.github.io ~$
    ```shell
-   git init ./public && cd ./public && git remote add origin https://github.com/allaroundconcreting/allaroundconcreting.github.io.git
+   git init ./public 
 
    ```
 
 **Commit changes (which is always all files in this folder "public") **
 
-from path ~/public ~$
+from path ~/allaroundconcreting.github.io ~$
    ```shell
-   git add . && git commit -m "describe the part of the website that should change"
+   cd ./public
+   git remote add origin https://github.com/allaroundconcreting/allaroundconcreting.github.io.git
+   git add .
+   git commit -m "describe the part of the website that should change"
 
    ```
 
@@ -135,18 +138,19 @@ from path ~/public ~$
 from path ~/public ~$
    ```shell
    git push origin master
-       // then enter your GitHub username & password
+       // enter your GitHub username & password
    git push -f origin +master:refs/heads/master
 
    ```
 
 This will build and deploy our app to the master branch to allaroundconcreting.github.io
-The new changes are live at https://allaroundconcreting.com.github.io _but not at custom domain_
+
+The new changes are live at https://allaroundconcreting.com.github.io _staging step_
 
 The custom domain will need to be pointed where the files are hosted on GitHub Pages (again)
 Go to settings of repo, scroll down to section *Custom Domain* and enter allaroundconcreting.com
 This will create a CNAME file in the master branch
 
-The latest changes are now also live at https://allaroundconcreting.com
+The latest changes are now also live at https://allaroundconcreting.com _production step_
 
 ❤️ Well done!
