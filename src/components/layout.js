@@ -94,7 +94,7 @@ class Layout extends React.Component {
                     <a href="tel:+61-424-876-155">+61424876155</a>
                   </li>
                   <li>
-                    <a className="button button-sm button-shadow" href="/mailto:allaroundconcreting@gmail.com">
+                    <a className="button button-sm button-shadow" href="mailto:allaroundconcreting@gmail.com">
                       Click to email
                     </a>
                   </li>
@@ -893,10 +893,12 @@ class Layout extends React.Component {
                     </a>
                   </li>
                 </ul> */}
+                <ul>
                 <div className="footer-copyright">
                 all rights reserved  &copy; ALL AROUND CONCRETING 
                 </div>
                 <div className="footer-copyright">Daniel Blatchford ABN 46 739 138 451</div>
+                </ul>
               </div>
             </div>
           </footer>
