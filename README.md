@@ -1,70 +1,152 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Gatsby theme evelyn
 
-In the project directory, you can run:
+A gatsby theme landing page template.
 
-### `npm start`
+## Getting started
+For an introduction to gatsby themes watch this official gatsby [video](https://www.youtube.com/watch?v=PS2784YfPpw).
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Your theme will be found at `src/components`.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## Getting support
+You can reach me [@stevennatera](https://twitter.com/@stevennatera) for all question, comments, or concerns.
 
-### `npm test`
+Thank you!
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h1 align="center">
+  Website development files 🏗️🚀🌐
+</h1>
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+the website https://allaroundconcreting.com/ hosted at https://allaroundconcreting.github.io
+You can begin improving the website in 5 minutes with these steps:
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#Setup Locally
+Follow these points to do a one time setup of the project in your local dev environment:
 
-### `npm run eject`
+- **Install the Gatsby CLI**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+   This site is built using <a href="https://gatsbyjs.org">Gatsby</a>. 
+   ```shell
+    npm install -g gatsby-cli
+   ```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- **Create a folder**
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+    Lets keep all projects in a folder called "allaroundconcreting" (name of GitHub organization)
+   ```shell
+    mkdir allaroundconcreting
+    cd allaroundconcreting
 
-## Learn More
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Clone this repository**
+   
+   This will download the files from the repo on Github
+   ```shell
+   git clone https://github.com/allaroundconcreting/allaroundconcreting.github.io.git
+   // then enter your GitHub username & password
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+At this point you have the project setup locally on your machine. You should not need to clone the repo again, we have a git workflow to keep everything in order.
 
-### Code Splitting
+#Development workflow
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+1. **Open the project**
+   
+   Open a terminal and navigate into the project folder called "allaroundconcreting.github.io"
+   ```shell
+   cd allaroundconcreting.github.io
+   ```
 
-### Analyzing the Bundle Size
+2. **Pull the latest updates**
+   
+   Ensure you pull the latest changes **_every time_**, or it could result in conflicts 
+   ```shell
+   git pull https://github.com/allaroundconcreting/allaroundconcreting.github.io.git
+   ```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+4. **Open the project in text editor**
+   
+   Launch the project in VS Code
+   ```shell
+   code .
+   ```
 
-### Making a Progressive Web App
+5. **Start the website in `development` mode**
+   
+   Now lets run the website locally:
+   ```shell
+   gatsby develop
+   ```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+The site is now running live in your browser <a href="http://localhost:8000">http://localhost:8000</a>. 
 
-### Advanced Configuration
+Now you can see changes live as you develop. Edit some files, and save changes to those files.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+6. **Commit your changes (often)**
 
-### Deployment
+   Remember to commit often, ensure comments short and useful:
+   ```shell
+   git add .
+   git commit -m "include a helpful description of your changes"
+   ```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+7. **Push commits (often)**
 
-### `npm run build` fails to minify
+   It is wise to push your commits often too:
+   ```shell
+   git push origin develop
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-# allaroundconcreting.github.io
-# allaroundconcreting.github.io
+   ```
+
+
+#Deploy workflow
+Our deployment workflow is disappointingly not automated by running a single command because gh-pages just won't work on MN's laptop :[ 
+
+**Build to "public" folder **
+
+from path ~/allaroundconcreting.github.io ~$
+   ```shell
+   gatsby build 
+
+   ```
+
+**Init the public folder ready to push to master **
+
+from path ~/allaroundconcreting.github.io ~$
+   ```shell
+   git init ./public && cd ./public && git remote add origin https://github.com/allaroundconcreting/allaroundconcreting.github.io.git
+
+   ```
+
+**Commit changes (which is always all files in this folder "public") **
+
+from path ~/public ~$
+   ```shell
+   git add . && git commit -m "describe the part of the website that should change"
+
+   ```
+
+**Push origin master (then use the force ;) **
+
+from path ~/public ~$
+   ```shell
+   git push origin master
+       // then enter your GitHub username & password
+   git push -f origin +master:refs/heads/master
+
+   ```
+
+This will build and deploy our app to the master branch to allaroundconcreting.github.io
+The new changes are live at https://allaroundconcreting.com.github.io _but not at custom domain_
+
+The custom domain will need to be pointed where the files are hosted on GitHub Pages (again)
+Go to settings of repo, scroll down to section *Custom Domain* and enter allaroundconcreting.com
+This will create a CNAME file in the master branch
+
+The latest changes are now also live at https://allaroundconcreting.com
+
+❤️ Well done!
