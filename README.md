@@ -1,5 +1,6 @@
 <h1 align="center">
   Website development files 🏗️🚀🌐
+  <div></div>
 </h1>
 
 
@@ -67,9 +68,11 @@ At this point you have the project setup locally on your machine. You should not
    gatsby develop
    ```
 
-The site is now running live in your browser <a href="http://localhost:8000">http://localhost:8000</a>. 
+The site is now running live in your browser <a href="http://localhost:8000">http://localhost:8000</a> 
 
-Now you can see changes live as you develop. Edit some files, and save changes to those files.
+Now you can see changes live as you develop. 
+
+Edit some files, and save changes to those files.
 
 6. **Commit your changes (often)**
 
@@ -87,11 +90,10 @@ Now you can see changes live as you develop. Edit some files, and save changes t
 
    ```
 
-
 # Deploy workflow
 Our deployment workflow is disappointingly not automated by running a single command because gh-pages just won't work on MN's laptop :[ 
 
-**Build to "public" folder **
+8. **Build to "public" folder **
 
 from path ~/allaroundconcreting.github.io ~$
    ```shell
@@ -99,7 +101,7 @@ from path ~/allaroundconcreting.github.io ~$
 
    ```
 
-**Init the public folder ready to push to master **
+9. **Init the public folder ready to push to master **
 
 from path ~/allaroundconcreting.github.io ~$
    ```shell
@@ -107,7 +109,7 @@ from path ~/allaroundconcreting.github.io ~$
 
    ```
 
-**Commit changes (which is always all files in this folder "public") **
+10. **Commit changes (which is always all files in this folder "public") **
 
 from path ~/allaroundconcreting.github.io ~$
    ```shell
@@ -118,7 +120,7 @@ from path ~/allaroundconcreting.github.io ~$
 
    ```
 
-**Push origin master (then use the force ;) **
+11. **Push to Staging** (use the force ;)
 
 from path ~/public ~$
    ```shell
@@ -128,14 +130,14 @@ from path ~/public ~$
 
    ```
 
-This will build and deploy our app to the master branch to allaroundconcreting.github.io
+This will build and deploy our app to the master branch to _staging_ https://allaroundconcreting.com.github.io
 
-The new changes are live at https://allaroundconcreting.com.github.io _staging step_
+12. **Push to Production** (allaroundconcreting.com)
 
 The custom domain will need to be pointed where the files are hosted on GitHub Pages (again)
 Go to settings of repo, scroll down to section *Custom Domain* and enter allaroundconcreting.com
 This will create a CNAME file in the master branch
 
-The latest changes are now also live at https://allaroundconcreting.com _production step_
+The latest changes are now also live in _production_ https://allaroundconcreting.com 
 
 ❤️ Well done!

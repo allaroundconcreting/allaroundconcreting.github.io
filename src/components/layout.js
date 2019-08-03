@@ -63,7 +63,7 @@ class Layout extends React.Component {
                         viewBox="0 0 32 32"
                         xmlns="http://www.w3.org/2000/svg"
                       >
-                        <title>Evelyn</title>
+                        <title>All Around Concreting</title>
                         <defs>
                           <radialGradient
                             cy="0%"
@@ -91,11 +91,11 @@ class Layout extends React.Component {
                 </div>
                 <ul className="header-links list-reset m-0">
                   <li>
-                    <a href="/#">Login</a>
+                    <a href="tel:+61-424-876-155">+61424876155</a>
                   </li>
                   <li>
-                    <a className="button button-sm button-shadow" href="/#">
-                      Signup
+                    <a className="button button-sm button-shadow" href="/mailto:allaroundconcreting@gmail.com">
+                      Click to email
                     </a>
                   </li>
                 </ul>
@@ -108,18 +108,17 @@ class Layout extends React.Component {
               <div className="container-sm">
                 <div className="hero-inner">
                   <h1 className="hero-title h2-mobile mt-0 is-revealing">
-                    Landing template for dingos
+                      All Around Concreting
                   </h1>
                   <p className="hero-paragraph is-revealing">
-                    Our landing page template works on all devices, so you only
-                    have to set it up once, and get beautiful results forever.
+                    Your local licensed concreter, delivering quality affordable concrete: driveways, footings, foundations, paths, pool areas, house surrounds, shed slabs, and more!
                   </p>
                   <p className="hero-cta is-revealing">
                     <a
                       className="button button-secondary button-shadow"
                       href="/#"
                     >
-                      Get started now
+                      Get a quote now
                     </a>
                   </p>
                   <div className="hero-media"></div>
@@ -127,7 +126,7 @@ class Layout extends React.Component {
               </div>
             </section>
 
-            <section className="clients section">
+            {/* <section className="clients section">
               <div className="container">
                 <div className="clients-inner section-inner has-top-divider">
                   <div className="container-sm">
@@ -190,9 +189,9 @@ class Layout extends React.Component {
                   </div>
                 </div>
               </div>
-            </section>
+            </section> */}
 
-            <section className="features section text-center">
+            {/* <section className="features section text-center">
               <div className="container">
                 <div className="features-inner section-inner has-top-divider">
                   <h2 className="section-title mt-0">Product features</h2>
@@ -290,18 +289,16 @@ class Layout extends React.Component {
                   </div>
                 </div>
               </div>
-            </section>
+            </section> */}
 
-            <section className="features-extended section">
+            {/* <section className="features-extended section">
               <div className="container">
                 <div className="features-extended-inner section-inner has-top-divider">
                   <div className="features-extended-header text-center">
                     <div className="container-sm">
-                      <h2 className="section-title mt-0">Meet Evelyn</h2>
+                      <h2 className="section-title mt-0">Meet Dan</h2>
                       <p className="section-paragraph">
-                        Lorem ipsum is common placeholder text used to
-                        demonstrate the graphic elements of a document or visual
-                        presentation
+                        Dan lives in Newrybar with his family, for the past few years he's done big and small jobs around the Northern Rivers region of NSW, as well as in Perth, WA. 
                       </p>
                     </div>
                   </div>
@@ -404,10 +401,9 @@ class Layout extends React.Component {
                       </svg>
                     </div>
                     <div className="feature-extended-body">
-                      <h3 className="mt-0">Discover</h3>
+                      <h3 className="mt-0">top three</h3>
                       <p>
-                        Where text is visible, people tend to focus on the
-                        textual content rather than upon overall presentation
+                        Where text one, text one text one text one text one text one text one text one text one
                       </p>
                     </div>
                   </div>
@@ -625,26 +621,22 @@ class Layout extends React.Component {
                   </div>
                 </div>
               </div>
-            </section>
-
+            </section>   */}
             <section className="pricing section">
               <div className="container">
                 <div className="pricing-inner section-inner has-top-divider">
-                  <h2 className="section-title mt-0 text-center">Pricing</h2>
+                  <h2 className="section-title mt-0 text-center">Get started</h2>
                   <div className="pricing-tables-wrap">
                     <div className="pricing-table is-revealing">
                       <div className="pricing-table-inner">
                         <div className="pricing-table-main">
                           <div className="pricing-table-header">
                             <div className="pricing-table-title mt-12 mb-16 text-secondary">
-                              Lorem ipsum
+                              we deliver on time on budget
                             </div>
                             <div className="pricing-table-price mb-24 pb-32">
-                              <span className="pricing-table-price-currency h3">
-                                $
-                              </span>
                               <span className="pricing-table-price-amount h1">
-                                29
+                                $ FREE QUOTE
                               </span>
                             </div>
                           </div>
@@ -663,7 +655,7 @@ class Layout extends React.Component {
                                   />
                                 </svg>
                               </span>
-                              <span>Sed do eiusmod tempor cesa.</span>
+                              <span>we meet to discuss requirements</span>
                             </li>
                             <li>
                               <span className="list-icon">
@@ -679,7 +671,7 @@ class Layout extends React.Component {
                                   />
                                 </svg>
                               </span>
-                              <span>Sed do eiusmod tempor cesa.</span>
+                              <span>we provide you friendly advise</span>
                             </li>
                             <li>
                               <span className="list-icon">
@@ -695,7 +687,7 @@ class Layout extends React.Component {
                                   />
                                 </svg>
                               </span>
-                              <span>Sed do eiusmod tempor cesa.</span>
+                              <span>we give you a simple quote</span>
                             </li>
                           </ul>
                         </div>
@@ -704,12 +696,12 @@ class Layout extends React.Component {
                             className="button button-secondary button-block"
                             href="/#"
                           >
-                            Get started now
+                            CALL TO ARRANGE FREE QUOTE
                           </a>
                         </div>
                       </div>
                     </div>
-                    <div className="pricing-table is-revealing">
+                    {/* <div className="pricing-table is-revealing">
                       <div className="pricing-table-inner">
                         <div className="pricing-table-main">
                           <div className="pricing-table-header">
@@ -801,7 +793,7 @@ class Layout extends React.Component {
                           </a>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -811,7 +803,7 @@ class Layout extends React.Component {
           <footer className="site-footer">
             <div className="container">
               <div className="site-footer-inner">
-                <div className="brand footer-brand">
+                {/* <div className="brand footer-brand">
                   <a href="/#">
                     <svg
                       width="32"
@@ -839,8 +831,8 @@ class Layout extends React.Component {
                       />
                     </svg>
                   </a>
-                </div>
-                <ul className="footer-links list-reset">
+                </div> */}
+                {/* <ul className="footer-links list-reset">
                   <li>
                     <a href="/#">Contact</a>
                   </li>
@@ -853,8 +845,8 @@ class Layout extends React.Component {
                   <li>
                     <a href="/#">Support</a>
                   </li>
-                </ul>
-                <ul className="footer-social-links list-reset">
+                </ul> */}
+                {/* <ul className="footer-social-links list-reset">
                   <li>
                     <a href="/#">
                       <span className="screen-reader-text">Facebook</span>
@@ -900,10 +892,11 @@ class Layout extends React.Component {
                       </svg>
                     </a>
                   </li>
-                </ul>
+                </ul> */}
                 <div className="footer-copyright">
-                  &copy; 2018 Evelyn, all rights reserved
+                all rights reserved  &copy; ALL AROUND CONCRETING 
                 </div>
+                <div className="footer-copyright">Daniel Blatchford ABN 46 739 138 451</div>
               </div>
             </div>
           </footer>
