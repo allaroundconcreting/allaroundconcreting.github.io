@@ -54,14 +54,14 @@ At this point you have the project setup locally on your machine. You should not
    git pull https://github.com/allaroundconcreting/allaroundconcreting.github.io.git
    ```
 
-4. **Open the project in text editor**
+3. **Open the project in text editor**
    
    Launch the project in VS Code
    ```shell
    code .
    ```
 
-5. **Start the website in `development` mode**
+4. **Start the website in `development` mode**
    
    Now lets run the website locally:
    ```shell
@@ -72,7 +72,8 @@ The site is now running live in your browser <a href="http://localhost:8000">htt
 
 Now you can see changes live as you develop. 
 
-Edit some files, and save changes to those files.
+5. **Edit code in files to improve website*** 
+Edit and save changes to those files.
 
 6. **Commit your changes (often)**
 

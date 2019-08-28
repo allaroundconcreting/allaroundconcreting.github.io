@@ -126,7 +126,7 @@ class Layout extends React.Component {
               </div>
             </section>
 
-            {/* <section className="clients section">
+            <section className="clients section">
               <div className="container">
                 <div className="clients-inner section-inner has-top-divider">
                   <div className="container-sm">
@@ -189,9 +189,9 @@ class Layout extends React.Component {
                   </div>
                 </div>
               </div>
-            </section> */}
+            </section>
 
-            {/* <section className="features section text-center">
+            <section className="features section text-center">
               <div className="container">
                 <div className="features-inner section-inner has-top-divider">
                   <h2 className="section-title mt-0">Product features</h2>
@@ -289,16 +289,16 @@ class Layout extends React.Component {
                   </div>
                 </div>
               </div>
-            </section> */}
+            </section>
 
-            {/* <section className="features-extended section">
+            <section className="features-extended section">
               <div className="container">
                 <div className="features-extended-inner section-inner has-top-divider">
                   <div className="features-extended-header text-center">
                     <div className="container-sm">
                       <h2 className="section-title mt-0">Meet Dan</h2>
                       <p className="section-paragraph">
-                        Dan lives in Newrybar with his family, for the past few years he's done big and small jobs around the Northern Rivers region of NSW, as well as in Perth, WA. 
+                        Dan lives in Newrybar with his family. For 20 years he's done big and small concreting jobs around Perth in WA, and Northern Rivers region of NSW. 
                       </p>
                     </div>
                   </div>
@@ -403,7 +403,7 @@ class Layout extends React.Component {
                     <div className="feature-extended-body">
                       <h3 className="mt-0">top three</h3>
                       <p>
-                        Where text one, text one text one text one text one text one text one text one text one
+                        top three, top three top three top three text one text one text one text one text one text one
                       </p>
                     </div>
                   </div>
@@ -506,7 +506,7 @@ class Layout extends React.Component {
                       </svg>
                     </div>
                     <div className="feature-extended-body">
-                      <h3 className="mt-0">Discover</h3>
+                      <h3 className="mt-0">Middle</h3>
                       <p>
                         Where text is visible, people tend to focus on the
                         textual content rather than upon overall presentation
@@ -612,7 +612,7 @@ class Layout extends React.Component {
                       </svg>
                     </div>
                     <div className="feature-extended-body">
-                      <h3 className="mt-0">Discover</h3>
+                      <h3 className="mt-0">Bottom</h3>
                       <p>
                         Where text is visible, people tend to focus on the
                         textual content rather than upon overall presentation
@@ -621,7 +621,7 @@ class Layout extends React.Component {
                   </div>
                 </div>
               </div>
-            </section>   */}
+            </section>  
             <section className="pricing section">
               <div className="container">
                 <div className="pricing-inner section-inner has-top-divider">
@@ -636,7 +636,7 @@ class Layout extends React.Component {
                             </div>
                             <div className="pricing-table-price mb-24 pb-32">
                               <span className="pricing-table-price-amount h1">
-                                $ FREE QUOTE
+                                FREE QUOTE
                               </span>
                             </div>
                           </div>
@@ -671,7 +671,7 @@ class Layout extends React.Component {
                                   />
                                 </svg>
                               </span>
-                              <span>we provide you friendly advise</span>
+                              <span>we offer friendly advise</span>
                             </li>
                             <li>
                               <span className="list-icon">
@@ -687,7 +687,7 @@ class Layout extends React.Component {
                                   />
                                 </svg>
                               </span>
-                              <span>we give you a simple quote</span>
+                              <span>we provide you a simple quote</span>
                             </li>
                           </ul>
                         </div>
@@ -895,7 +895,7 @@ class Layout extends React.Component {
                 </ul> */}
                 <ul>
                 <div className="footer-copyright">
-                all rights reserved  &copy; ALL AROUND CONCRETING 
+                Copyright &copy; ALL AROUND CONCRETING 
                 </div>
                 <div className="footer-copyright">Daniel Blatchford ABN 46 739 138 451</div>
                 </ul>
