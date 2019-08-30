@@ -132,7 +132,7 @@ class Layout extends React.Component {
               </div>
             </section>
 
-            <section className="clients section">
+            {/* <section className="clients section">
               <div className="container">
                 <div className="clients-inner section-inner has-top-divider">
                   <div className="container-sm">
@@ -195,9 +195,9 @@ class Layout extends React.Component {
                   </div>
                 </div>
               </div>
-            </section>
+            </section> */}
 
-            <section className="features section text-center">
+            {/* <section className="features section text-center">
               <div className="container">
                 <div className="features-inner section-inner has-top-divider">
                   <h2 className="section-title mt-0">Product features</h2>
@@ -261,7 +261,7 @@ class Layout extends React.Component {
                   </div>
                 </div>
               </div>
-            </section>
+            </section> */}
 
             <section className="features-extended section">
               <div className="container">
@@ -281,37 +281,35 @@ class Layout extends React.Component {
                       </div>
                     </div> 
                     <div className="feature-extended-body">
-                      <h3 className="mt-0">top three</h3>
+                      <h3 className="mt-0">Driveways, Carparks, Truck Bays</h3>
                       <p>
-                        top three, top three top three top three text one text one text one text one text one text one
+                        Professional job from quote, to pour, to finish. We do pool areas, paths, granny flats, slash studios, driveways, carparks, industrial.  
                       </p>
                     </div>
                   </div>
                   <div className="feature-extended">
                     <div className="feature-extended-image is-revealing">
                       <div style={{ minWidth: `480px`, minHeight: `360px`, marginBottom: `0rem` }}>
-                        <MyImg  src="page1/sub2.jpg" />
+                        <MyImg  src="page1/sub2.png" />
                       </div>
                     </div>
                     <div className="feature-extended-body">
-                      <h3 className="mt-0">Middle</h3>
+                      <h3 className="mt-0">Footings & Foundations</h3>
                       <p>
-                        Where text is visible, people tend to focus on the
-                        textual content rather than upon overall presentation
+                        Our team are flexible and professional, we work with your subcontractors to keep your project is delivered on time and on budget.
                       </p>
                     </div>
                   </div>
                   <div className="feature-extended">
                     <div className="feature-extended-image is-revealing">
                       <div style={{ minWidth: `480px`, minHeight: `360px`, marginBottom: `0rem` }}>
-                        <MyImg  src="page1/sub3.jpg" />
+                        <MyImg  src="page1/sub3.png" />
                       </div>
                     </div>
                     <div className="feature-extended-body">
-                      <h3 className="mt-0">Bottom</h3>
+                      <h3 className="mt-0">Around the home</h3>
                       <p>
-                        Where text is visible, people tend to focus on the
-                        textual content rather than upon overall presentation
+                        We have a range of decorative finishes. No job too big or small. We pride ourselves on craftsmanship and quality everywhere.
                       </p>
                     </div>
                   </div>
