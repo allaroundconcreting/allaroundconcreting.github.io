@@ -6,6 +6,7 @@
  */
 
 import React from "react"
+import MyImg from "../components/image"
 import SR from "./ScrollReveal"
 import "../scss/style.scss"
 
@@ -89,6 +90,7 @@ class Layout extends React.Component {
                     </a>
                   </h1>
                 </div>
+
                 <ul className="header-links list-reset m-0">
                   <li>
                     <a href="tel:+61-424-876-155">+61424876155</a>
@@ -121,7 +123,11 @@ class Layout extends React.Component {
                       Get a quote now
                     </a>
                   </p>
-                  <div className="hero-media"></div>
+                  <div className="hero-media">
+                    <div style={{ maxWidth: `800px`, marginBottom: `1.45rem` }}>
+                      <MyImg  src="page1/fitstyle.png" />
+                    </div>
+                  </div>
                 </div>
               </div>
             </section>
@@ -198,18 +204,11 @@ class Layout extends React.Component {
                   <div className="features-wrap">
                     <div className="feature is-revealing">
                       <div className="feature-inner">
-                        <div className="feature-icon">
-                          <svg
-                            width="48"
-                            height="48"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <g fill="none" fill-rule="evenodd">
-                              <path fill="#84E482" d="M48 16v32H16z" />
-                              <path fill="#0EB3CE" d="M0 0h32v32H0z" />
-                            </g>
-                          </svg>
-                        </div>
+                        <center>
+                          <div style={{ maxWidth: `48px`, marginBottom: `0rem` }}>
+                            <MyImg  src="page1/small1.jpg" />
+                          </div>
+                        </center>
                         <h4 className="feature-title h3-mobile">Lorem Ipsum</h4>
                         <p className="text-sm">
                           often arouses curiosity due to its resemblance to
@@ -219,19 +218,11 @@ class Layout extends React.Component {
                     </div>
                     <div className="feature is-revealing">
                       <div className="feature-inner">
-                        <div className="feature-icon">
-                          <svg
-                            width="48"
-                            height="48"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <g fill="none" fill-rule="evenodd">
-                              <path fill="#84E482" d="M48 16v32H16z" />
-                              <path fill="#0EB3CE" d="M0 0v32h32z" />
-                              <circle fill="#02C6A4" cx="29" cy="9" r="4" />
-                            </g>
-                          </svg>
-                        </div>
+                        <center>
+                          <div style={{ maxWidth: `48px`, marginBottom: `0rem` }}>
+                            <MyImg  src="page1/small2.jpg" />
+                          </div>
+                        </center>
                         <h4 className="feature-title h3-mobile">Lorem Ipsum</h4>
                         <p className="text-sm">
                           often arouses curiosity due to its resemblance to
@@ -241,18 +232,11 @@ class Layout extends React.Component {
                     </div>
                     <div className="feature is-revealing">
                       <div className="feature-inner">
-                        <div className="feature-icon">
-                          <svg
-                            width="48"
-                            height="48"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <g fill="none" fill-rule="evenodd">
-                              <path fill="#0EB3CE" d="M0 0h32v32H0z" />
-                              <path fill="#84E482" d="M16 16h32L16 48z" />
-                            </g>
-                          </svg>
-                        </div>
+                        <center>
+                          <div style={{ maxWidth: `48px`, marginBottom: `0rem` }}>
+                            <MyImg  src="page1/small3.jpg" />
+                          </div>
+                        </center>
                         <h4 className="feature-title h3-mobile">Lorem Ipsum</h4>
                         <p className="text-sm">
                           often arouses curiosity due to its resemblance to
@@ -262,23 +246,11 @@ class Layout extends React.Component {
                     </div>
                     <div className="feature is-revealing">
                       <div className="feature-inner">
-                        <div className="feature-icon">
-                          <svg
-                            width="48"
-                            height="48"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <g fill="none" fill-rule="evenodd">
-                              <path
-                                d="M32 40H0c0-8.837 7.163-16 16-16s16 7.163 16 16z"
-                                fill="#84E482"
-                                style={{ mixBlendMode: "multiply" }}
-                              />
-                              <path fill="#03C5A4" d="M12 8h8v8h-8z" />
-                              <path fill="#0EB3CE" d="M32 0h16v48H32z" />
-                            </g>
-                          </svg>
-                        </div>
+                        <center>
+                          <div style={{ maxWidth: `48px`, marginBottom: `0rem` }}>
+                            <MyImg  src="page1/small4.png" />
+                          </div>
+                        </center>
                         <h4 className="feature-title h3-mobile">Lorem Ipsum</h4>
                         <p className="text-sm">
                           often arouses curiosity due to its resemblance to
@@ -304,102 +276,10 @@ class Layout extends React.Component {
                   </div>
                   <div className="feature-extended">
                     <div className="feature-extended-image is-revealing">
-                      <svg
-                        width="480"
-                        height="360"
-                        viewBox="0 0 480 360"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <defs>
-                          <filter
-                            x="-500%"
-                            y="-500%"
-                            width="1000%"
-                            height="1000%"
-                            filterUnits="objectBoundingBox"
-                            id="dropshadow-1"
-                          >
-                            <feOffset
-                              dy="16"
-                              in="SourceAlpha"
-                              result="shadowOffsetOuter"
-                            />
-                            <feGaussianBlur
-                              stdDeviation="24"
-                              in="shadowOffsetOuter"
-                              result="shadowBlurOuter"
-                            />
-                            <feColorMatrix
-                              values="0 0 0 0 0.12 0 0 0 0 0.17 0 0 0 0 0.21 0 0 0 0.2 0"
-                              in="shadowBlurOuter"
-                            />
-                          </filter>
-                        </defs>
-                        <path
-                          fill="#F6F8FA"
-                          d="M0 220V0h200zM480 140v220H280z"
-                        />
-                        <path
-                          fill="#FFF"
-                          d="M40 50h400v260H40z"
-                          style={{
-                            mixBlendMode: "multiply",
-                            filter: "url(#dropshadow-1)",
-                          }}
-                        />
-                        <path fill="#FFF" d="M40 50h400v260H40z" />
-                        <path
-                          fill="#FFF"
-                          d="M103 176h80v160h-80zM320 24h88v88h-88z"
-                          style={{
-                            mixBlendMode: "multiply",
-                            filter: "url(#dropshadow-1)",
-                          }}
-                        />
-                        <path
-                          fill="#FFF"
-                          d="M103 176h80v160h-80zM320 24h88v88h-88z"
-                        />
-                        <path
-                          fill="#FFF"
-                          d="M230.97 198l16.971 16.971-16.97 16.97L214 214.972z"
-                          style={{
-                            mixBlendMode: "multiply",
-                            filter: "url(#dropshadow-1)",
-                          }}
-                        />
-                        <path
-                          fill="#02C6A4"
-                          d="M230.97 198l16.971 16.971-16.97 16.97L214 214.972z"
-                        />
-                        <path
-                          fill="#FFF"
-                          d="M203 121H103v100z"
-                          style={{
-                            mixBlendMode: "multiply",
-                            filter: "url(#dropshadow-1)",
-                          }}
-                        />
-                        <path fill="#84E482" d="M203 121H103v100z" />
-                        <circle
-                          fill="#FFF"
-                          cx="288"
-                          cy="166"
-                          r="32"
-                          style={{
-                            mixBlendMode: "multiply",
-                            filter: "url(#dropshadow-1)",
-                          }}
-                        />
-                        <circle
-                          fill="#0EB3CE"
-                          cx="288"
-                          cy="166"
-                          r="32"
-                          style={{ mixBlendMode: "multiply" }}
-                        />
-                      </svg>
-                    </div>
+                      <div style={{ minWidth: `480px`, minHeight: `360px`, marginBottom: `0rem` }}>
+                        <MyImg  src="page1/sub1.png" />
+                      </div>
+                    </div> 
                     <div className="feature-extended-body">
                       <h3 className="mt-0">top three</h3>
                       <p>
@@ -409,101 +289,9 @@ class Layout extends React.Component {
                   </div>
                   <div className="feature-extended">
                     <div className="feature-extended-image is-revealing">
-                      <svg
-                        width="480"
-                        height="360"
-                        viewBox="0 0 480 360"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <defs>
-                          <filter
-                            x="-500%"
-                            y="-500%"
-                            width="1000%"
-                            height="1000%"
-                            filterUnits="objectBoundingBox"
-                            id="dropshadow-2"
-                          >
-                            <feOffset
-                              dy="16"
-                              in="SourceAlpha"
-                              result="shadowOffsetOuter"
-                            />
-                            <feGaussianBlur
-                              stdDeviation="24"
-                              in="shadowOffsetOuter"
-                              result="shadowBlurOuter"
-                            />
-                            <feColorMatrix
-                              values="0 0 0 0 0.12 0 0 0 0 0.17 0 0 0 0 0.21 0 0 0 0.2 0"
-                              in="shadowBlurOuter"
-                            />
-                          </filter>
-                        </defs>
-                        <path
-                          fill="#F6F8FA"
-                          d="M480 140v220H280zM0 220V0h200z"
-                        />
-                        <path
-                          fill="#FFF"
-                          d="M40 50h400v260H40z"
-                          style={{
-                            mixBlendMode: "multiply",
-                            filter: "url(#dropshadow-2)",
-                          }}
-                        />
-                        <path fill="#FFF" d="M40 50h400v260H40z" />
-                        <path
-                          fill="#FFF"
-                          d="M86.225 161l62.226 62.225-62.226 62.225L24 223.225zM296 176h80v160h-80z"
-                          style={{
-                            mixBlendMode: "multiply",
-                            filter: "url(#dropshadow-2)",
-                          }}
-                        />
-                        <path
-                          fill="#FFF"
-                          d="M86.225 161l62.226 62.225-62.226 62.225L24 223.225zM296 176h80v160h-80z"
-                        />
-                        <path
-                          fill="#FFF"
-                          d="M245.092 218l9.378 22.092-22.093 9.378L223 227.378z"
-                          style={{
-                            mixBlendMode: "multiply",
-                            filter: "url(#dropshadow-2)",
-                          }}
-                        />
-                        <path
-                          fill="#02C6A4"
-                          d="M245.092 218l9.378 22.092-22.093 9.378L223 227.378z"
-                        />
-                        <path
-                          fill="#FFF"
-                          d="M270 96H170v100z"
-                          style={{
-                            mixBlendMode: "multiply",
-                            filter: "url(#dropshadow-2)",
-                          }}
-                        />
-                        <path fill="#84E482" d="M270 96H170v100z" />
-                        <circle
-                          fill="#FFF"
-                          cx="296"
-                          cy="177"
-                          r="32"
-                          style={{
-                            mixBlendMode: "multiply",
-                            filter: "url(#dropshadow-2)",
-                          }}
-                        />
-                        <circle
-                          fill="#0EB3CE"
-                          cx="296"
-                          cy="177"
-                          r="32"
-                          style={{ mixBlendMode: "multiply" }}
-                        />
-                      </svg>
+                      <div style={{ minWidth: `480px`, minHeight: `360px`, marginBottom: `0rem` }}>
+                        <MyImg  src="page1/sub2.jpg" />
+                      </div>
                     </div>
                     <div className="feature-extended-body">
                       <h3 className="mt-0">Middle</h3>
@@ -515,101 +303,9 @@ class Layout extends React.Component {
                   </div>
                   <div className="feature-extended">
                     <div className="feature-extended-image is-revealing">
-                      <svg
-                        width="480"
-                        height="360"
-                        viewBox="0 0 480 360"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <defs>
-                          <filter
-                            x="-500%"
-                            y="-500%"
-                            width="1000%"
-                            height="1000%"
-                            filterUnits="objectBoundingBox"
-                            id="dropshadow-3"
-                          >
-                            <feOffset
-                              dy="16"
-                              in="SourceAlpha"
-                              result="shadowOffsetOuter"
-                            />
-                            <feGaussianBlur
-                              stdDeviation="24"
-                              in="shadowOffsetOuter"
-                              result="shadowBlurOuter"
-                            />
-                            <feColorMatrix
-                              values="0 0 0 0 0.12 0 0 0 0 0.17 0 0 0 0 0.21 0 0 0 0.2 0"
-                              in="shadowBlurOuter"
-                            />
-                          </filter>
-                        </defs>
-                        <path
-                          fill="#F6F8FA"
-                          d="M480 140v220H280zM0 220V0h200z"
-                        />
-                        <path
-                          fill="#FFF"
-                          d="M40 50h400v260H40z"
-                          style={{
-                            mixBlendMode: "multiply",
-                            filter: "url(#dropshadow-3)",
-                          }}
-                        />
-                        <path fill="#FFF" d="M40 50h400v260H40z" />
-                        <path
-                          fill="#FFF"
-                          d="M72 248h88v88H72zM180 24h80v160h-80z"
-                          style={{
-                            mixBlendMode: "multiply",
-                            filter: "url(#dropshadow-3)",
-                          }}
-                        />
-                        <path
-                          fill="#FFF"
-                          d="M72 248h88v88H72zM180 24h80v160h-80z"
-                        />
-                        <path
-                          fill="#FFF"
-                          d="M277.664 261.919l-18.113 15.745-15.746-18.113 18.113-15.745z"
-                          style={{
-                            mixBlendMode: "multiply",
-                            filter: "url(#dropshadow-3)",
-                          }}
-                        />
-                        <path
-                          fill="#02C6A4"
-                          d="M277.664 261.919l-18.113 15.745-15.746-18.113 18.113-15.745z"
-                        />
-                        <path
-                          fill="#FFF"
-                          d="M315 129H215v100z"
-                          style={{
-                            mixBlendMode: "multiply",
-                            filter: "url(#dropshadow-3)",
-                          }}
-                        />
-                        <path fill="#84E482" d="M315 129H215v100z" />
-                        <circle
-                          fill="#FFF"
-                          cx="318"
-                          cy="219"
-                          r="32"
-                          style={{
-                            mixBlendMode: "multiply",
-                            filter: "url(#dropshadow-3)",
-                          }}
-                        />
-                        <circle
-                          fill="#0EB3CE"
-                          cx="318"
-                          cy="219"
-                          r="32"
-                          style={{ mixBlendMode: "multiply" }}
-                        />
-                      </svg>
+                      <div style={{ minWidth: `480px`, minHeight: `360px`, marginBottom: `0rem` }}>
+                        <MyImg  src="page1/sub3.jpg" />
+                      </div>
                     </div>
                     <div className="feature-extended-body">
                       <h3 className="mt-0">Bottom</h3>
@@ -621,7 +317,8 @@ class Layout extends React.Component {
                   </div>
                 </div>
               </div>
-            </section>  
+            </section>
+
             <section className="pricing section">
               <div className="container">
                 <div className="pricing-inner section-inner has-top-divider">
